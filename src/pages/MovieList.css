@@ -1,0 +1,38 @@
+@media screen and (max-width: 1024px) {
+  .MovieList {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .M-main {
+    max-width: 100%;
+    height: auto;
+  }
+  .M-main img {
+    width: 100%; 
+    height: auto;
+  }
+}
+
+.MovieList {
+  width: 168px;
+  height: 338px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 20px;
+}
+.M-main {
+  border-radius: 5px;
+  width: 150px;
+  height: 225px;
+}
+.M-T {
+  font-weight: bold;
+}
+.M-R {
+  font-weight: normal;
+  color: #555;
+}
+.M-List {
+  margin-left: 10px;
+}
